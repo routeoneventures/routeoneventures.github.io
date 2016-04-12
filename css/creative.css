@@ -46,6 +46,10 @@ h6 {
     font-family:'Conv_antonio.regular',Sans-Serif;
 }
 
+.antonioBold {
+    font-family:'Conv_antonio.bold',Sans-Serif;
+}
+
 p {
     margin-bottom: 20px;
     font-size: 16px;
