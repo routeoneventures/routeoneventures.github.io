@@ -47,6 +47,10 @@ h6
     /* font-family:'Conv_antonio.regular',Sans-Serif;*/
 }
 
+h2 {
+    font-size: 45px;
+}
+
 .antonioBold {
     font-family:'Conv_antonio.bold',Sans-Serif;
     font-size: 85px !important;
