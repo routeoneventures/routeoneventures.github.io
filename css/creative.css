@@ -7,7 +7,7 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; 
 }
 
 hr {
@@ -34,12 +34,17 @@ a:focus {
 
 h1,
 h2,
-h3,
+h3
+{
+    font-family:'Conv_antonio.regular',Sans-Serif;
+}
+
 h4,
 h5,
-h6 {
-    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
-    font-family:'Conv_antonio.regular',Sans-Serif;
+h6 
+{
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; 
+    /* font-family:'Conv_antonio.regular',Sans-Serif;*/
 }
 
 .antonioBold {
