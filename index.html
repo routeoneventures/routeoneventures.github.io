@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<!-- way to serve https on GH pages, but it'll work -->
+<!-- dirty way to serve https on GH pages, but it'll work -->
 <script type="text/javascript">
     var rov = "www.routeone.vc";
     if ((rov == window.location.host) && (window.location.protocol != "https:"))
@@ -48,23 +48,6 @@
     <link rel="apple-touch-icon" sizes="114x114" href="rovapp/apple-icon-114x114.png" />
     <link rel="apple-touch-icon" sizes="144x144" href="rovapp/apple-icon-144x144.png" />
 
-    <!-- custom fonts -->
-    <style>
-    @font-face {
-        font-family: 'Conv_antonio.regular';
-        src: url('fonts/antonio.regular.eot');
-        src: local('☺'), url('fonts/antonio.regular.woff') format('woff'), url('fonts/antonio.regular.ttf') format('truetype'), url('fonts/antonio.regular.svg') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
-    @font-face {
-        font-family: 'Conv_antonio.bold';
-        src: url('fonts/antonio.bold.eot');
-        src: local('☺'), url('fonts/antonio.bold.woff') format('woff'), url('fonts/antonio.bold.ttf') format('truetype'), url('fonts/antonio.bold.svg') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
-    </style>
 </head>
 
 <body id="page-top">
@@ -110,9 +93,9 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 class="antonioBold">Route One Ventures</h1>
+                <h1>Route One Ventures</h1>
                 <hr>
-                <p><b>We are a student-run venture fund investing in University of Maryland startups.</b></p>
+                <p><b>An early-stage venture fund run by students, for students.</b></p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn More</a>
             </div>
         </div>
@@ -455,6 +438,15 @@
         </div>
     </section>
 
+    <!-- Map -->
+    <section id="map" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1503.0910750317478!2d-76.94855642184805!3d38.982736466106466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c69407923343%3A0x8c1766f63db019b7!2sDingman+Center+for+Entrepreneurship!5e0!3m2!1sen!2sus!4v1465503192094"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1503.0910750317478!2d-76.94855642184805!3d38.982736466106466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c69407923343%3A0x8c1766f63db019b7!2sDingman+Center+for+Entrepreneurship!5e0!3m2!1sen!2sus!4v1465503192094"></a>
+        </small>
+        </iframe>
+    </section>
 
     <section id="contact">
         <div class="container">
