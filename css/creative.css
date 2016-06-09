@@ -38,7 +38,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
+    font-family:'Conv_antonio.regular',Sans-Serif;
+}
+
+.antonioBold {
+    font-family:'Conv_antonio.bold',Sans-Serif;
+    font-size: 200%;
 }
 
 p {
