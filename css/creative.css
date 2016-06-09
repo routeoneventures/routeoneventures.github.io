@@ -481,3 +481,6 @@ body {
 .map {
     height: 800px;
 }
+.map iframe {
+    pointer-events: none;
+}
