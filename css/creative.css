@@ -338,8 +338,13 @@ header .header-content .header-content-inner p {
 }
 
 .no-gutter > [class*=col-] {
-    padding-right: 0;
-    padding-left: 0;
+    /*padding-right: 0;
+    padding-left: 0;*/
+    padding: 4px;
+}
+
+.no-gutter {
+    background-color: rgb(34,34,34);
 }
 
 .btn-default {
