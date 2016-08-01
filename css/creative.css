@@ -66,6 +66,12 @@ p {
     background-color: rgba(196,80,81, 1);
 }
 
+.bg-careers {
+    background-color: rgba(27, 115, 207, 1);
+    color: #FFF;
+    margin-top:50px;
+}
+
 .bg-dark {
     color: #fff;
     background-color: #222;
